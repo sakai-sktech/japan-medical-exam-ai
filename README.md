@@ -11,7 +11,7 @@ This repository presents AI-generated responses to questions from the **Japanese
 - **Method**: All models are queried simultaneously via [Tenbin AI](https://tenbin.ai), a platform that enables side-by-side evaluation
 - **Question type**: Current focus is on **text-only questions** that do not require image interpretation
 - **Output Format**: One Markdown file per question (e.g., `119-A11.md`)
-- **SMAQ (custom ChatGPT-based assistant)**: Responses are provided separately in grouped batches (e.g., `119-A11-20_SMAQ.md`)
+- **SMAQ (custom ChatGPT-based assistant)**: Responses are provided separately in grouped batches (e.g., `119-A11-20_SMAQGPTs.md`)
 
 ---
 
@@ -50,7 +50,7 @@ You are free to **use, adapt, distribute, or commercialize** the content with pr
 ## 📁 File Structure
 
 - `119-A11.md` — One question and responses from multiple Tenbin-supported LLMs
-- `119-A11-20_SMAQ.md` — A batch of 10 questions answered using SMAQ (ChatGPT-based system)
+- `119-A11-20_SMAQGPTs.md` — A batch of 10 questions answered using SMAQ (ChatGPT-based system)
 
 Each LLM response includes:
 - Final answer
