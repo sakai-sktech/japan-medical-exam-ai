@@ -1,19 +1,31 @@
 # 🧠 AI Responses to the Japanese National Medical Licensing Examination (JMLE)
 
-This repository contains AI-generated responses to past questions from the **Japanese National Medical Licensing Examination (JMLE)**.  
-It is intended for **research, benchmarking, and educational purposes**.
-
-Large Language Models (LLMs) were prompted with actual exam-style questions to evaluate their clinical reasoning capabilities in a Japanese medical context.
+This repository presents AI-generated responses to questions from the **Japanese National Medical Licensing Examination (JMLE)**, using multiple Large Language Models (LLMs) evaluated in parallel.
 
 ---
 
 ## 📄 Project Overview
 
-- **Content**: Original questions and corresponding AI-generated answers
-- **Target models**: GPT-4, Claude, Gemini, Mistral, and other LLMs
-- **Focus**: Accuracy, medical reasoning, and potential for clinical use support
+- **Source**: Past JMLE questions (translated and formatted for AI input)
+- **Models**: GPT-4, GPT-4o, Claude 3.5/3.7, Gemini 1.5, and other major LLMs
+- **Method**: All models are queried simultaneously via [Tenbin AI](https://tenbin.ai), a platform that enables side-by-side evaluation
+- **Question type**: Current focus is on **text-only questions** that do not require image interpretation
+- **Output Format**: One Markdown file per question (e.g., `119-A10.md`)
+- **SMAQ (custom ChatGPT-based assistant)**: Responses are provided separately in grouped batches (e.g., `119-A10-19SMAQ.md`)
 
-This project aims to provide a foundation for evaluating the performance of AI systems in real-world medical knowledge assessment.
+---
+
+## 🎯 Purpose
+
+This project **does not aim to provide correct answers.**  
+Instead, it offers:
+
+- Insight into how LLMs **reason through clinical questions**
+- A resource for medical learners and professionals to **compare, reflect, and verify**
+- A platform to **stimulate critical thinking**, not passive memorization
+
+> ✅ **Note**: At this stage, only **text-based questions** are included.  
+> Image-based or visually dependent questions are excluded from initial publication.
 
 ---
 
@@ -21,27 +33,49 @@ This project aims to provide a foundation for evaluating the performance of AI s
 
 > **This project is NOT intended for clinical decision-making.**
 
-All content is **for research, reference, and educational purposes only**.  
-The AI-generated responses are **not guaranteed to be medically accurate or safe**.
+All content is for **educational, research, and reference purposes only**.  
+The AI-generated responses may contain factual or medical inaccuracies.
 
-You are **strictly advised not to use** the information in this repository for actual diagnosis, treatment, or any other clinical application.
+Do **not use** this content for diagnosis, treatment, or any real-world clinical decision-making.
 
 ---
 
 ## 📎 Licensing
 
 This repository is licensed under the [MIT License](./LICENSE).  
-You are free to **use, modify, distribute, or commercialize** the content, provided you retain the original copyright.
+You are free to **use, adapt, distribute, or commercialize** the content with proper attribution.
+
+---
+
+## 📁 File Structure
+
+- `119-A10.md` — One question and responses from multiple Tenbin-supported LLMs
+- `119-A10-19SMAQ.md` — A batch of 10 questions answered using SMAQ (ChatGPT-based system)
+
+Each LLM response includes:
+- Final answer
+- Explanation for the choice
+- Reasoning against other options
+
+---
+
+## 🧾 Official Question Sources
+
+The original questions used in this project are publicly released by Japan’s Ministry of Health, Labour and Welfare (MHLW):
+
+- [119th National Medical Licensing Examination (2025, Reiwa 7)](https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp250428-01.html)
+- [118th National Medical Licensing Examination (2024, Reiwa 6)](https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/topics/tp240424-01.html)
+
+Questions have been **reformatted and lightly adapted** for LLM input, but their original content remains under MHLW ownership.
 
 ---
 
 ## 📬 Contact
 
-If you'd like to collaborate, contribute questions, or discuss AI in clinical education, feel free to reach out via [GitHub Issues](https://github.com/your-username/your-repo-name/issues) or email.
+If you'd like to contribute, suggest improvements, or discuss AI in medical education, open a [GitHub Issue](https://github.com/your-username/your-repo-name/issues) or contact the project owner.
 
 ---
 
 ## 🌐 Keywords
 
-`AI in Medicine` · `Japanese Medical Licensing Exam` · `LLM Evaluation` · `Clinical Reasoning` · `Prompt Engineering` · `Medical NLP`
-
+`AI in Medicine` · `JMLE` · `LLM Clinical Reasoning` · `Tenbin AI` · `Prompt Evaluation` · `Medical NLP` · `SMAQ`
