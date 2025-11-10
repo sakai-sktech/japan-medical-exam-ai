@@ -72,7 +72,7 @@ Questions have been **reformatted and lightly adapted** for LLM input, but their
 
 ## 📬 Contact
 
-If you'd like to contribute, suggest improvements, or discuss AI in medical education, open a [GitHub Issue]([https://github.com/your-username/your-repo-name/issues](https://github.com/sakai-sktech/japan-medical-exam-ai/issues)) or contact the project owner.
+If you'd like to contribute, suggest improvements, or discuss AI in medical education, open a [GitHub Issue](https://github.com/sakai-sktech/japan-medical-exam-ai/issues) or contact the project owner.
 
 ---
 
